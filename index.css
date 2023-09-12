@@ -11,7 +11,8 @@ body{
 .container{
     /* width:400px; */
     padding:20px ;
-    background-color: rgb(242, 229, 211);
+    /* background-color: rgb(242, 229, 211); */
+    background-color: rgba(255,255,255,.4);
     border-radius: 15px;
     box-shadow: 0px 6px 10px rgba(0,0,0,.3);
     width: 90%;
@@ -24,6 +25,10 @@ body{
     height: 30px;
     width: 65%;
     padding: 5px;
-    background-color: rgba(255,255,255,.7);
-    border-color: rgba(255,255,255,.3);
+    background-color: rgba(255,255,255,.4);
+    border-color: rgba(255,255,255,.4);
+}
+
+.meaning-container{
+    display: none;
 }
