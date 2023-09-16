@@ -1,0 +1,32 @@
+
+
+██████╗░██╗░█████╗░████████╗██╗░█████╗░███╗░░██╗░█████╗░██████╗░██╗░░░██╗
+██╔══██╗██║██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║██╔══██╗██╔══██╗╚██╗░██╔╝
+██║░░██║██║██║░░╚═╝░░░██║░░░██║██║░░██║██╔██╗██║███████║██████╔╝░╚████╔╝░
+██║░░██║██║██║░░██╗░░░██║░░░██║██║░░██║██║╚████║██╔══██║██╔══██╗░░╚██╔╝░░
+██████╔╝██║╚█████╔╝░░░██║░░░██║╚█████╔╝██║░╚███║██║░░██║██║░░██║░░░██║░░░
+╚═════╝░╚═╝░╚════╝░░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
+
+1. Get references to HTML elements by ther IDs.
+
+2. Define an asynchronous function to fetch word information from api
+
+==>TRY<==
+3. Display "Searching..." message and hide meaning container initially
+
+4. Construct the API URL based on the user's input
+
+5. Fetch data from API
+
+6. Check if the result has a 'title' property (word not found in dictionary)
+
+7. If result not found Display appropriate messages and hide audio element
+
+8. Else Word found in dictionary, display its title, meaning, and audio pronunciation
+
+==> CATCH <==
+9. Catch any errors that may occur during fetching of data or displaying it
+
+10  Add a keyup event listener to the input field
+
+11. When Enter key is pressed and input is not 
